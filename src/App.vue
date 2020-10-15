@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <v-header></v-header>
+    <router-view></router-view>
     <v-footer></v-footer>
   </div>
 </template>
@@ -22,7 +23,8 @@ export default {
 
 @import './assets/layui/css/layui.css';
 @import './assets/css/global.css';
-@import "./assets/layui/css/modules/layer/default/layer.css";
+@import './assets/css/main.css';
+// @import "./assets/layui/css/modules/layer/default/layer.css";
 
 // 公用样式
 .svg {

@@ -4,7 +4,11 @@ import router from './router/router'
 import store from './store/store'
 
 import '@/utils/veevalidate'
+import Alert from './views/components/modules/alert/Alert.vue'
+
+
 Vue.config.productionTip = false
+Vue.use(Alert)
 
 
 new Vue({
